@@ -1,0 +1,16 @@
+{
+    "name": "webit/weather-api",
+    "description": "Common Weather API PHP implementation",
+    "type" : "library",
+    "license" : "MIT",
+    "keywords" : ["weather", "weather api"],
+    "authors" : [{
+      "name" : "Daniel Bojdo", "email" : "daniel.bojdo@web-it.eu"
+    }],
+    "autoload": {
+        "psr-0": { "Webit\\Weather\\WeatherApi": "lib/" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
