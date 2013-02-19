@@ -1,16 +1,16 @@
 <?php
-namespace Webit\Weather\WeatherApi\Weather;
+namespace Webit\Weather\WeatherApi;
 
 
-use Webit\Weather\WeatherApi\Api\Weather\WeatherInterface;
-use Webit\Weather\WeatherApi\Weather\Measure\Precipitation;
-use Webit\Weather\WeatherApi\Weather\Measure\Visibility;
-use Webit\Weather\WeatherApi\Weather\Measure\Pressure;
-use Webit\Weather\WeatherApi\Weather\Measure\Humidity;
-use Webit\Weather\WeatherApi\Weather\Measure\Cloudcover;
-use Webit\Weather\WeatherApi\Api\Weather\WindInterface;
-use Webit\Weather\WeatherApi\Weather\Measure\Temperature;
-use Webit\Weather\WeatherApi\Api\Weather\ConditionCodeInterface;
+use Webit\Weather\WeatherApi\Api\WeatherInterface;
+use Webit\Weather\WeatherApi\Measure\Precipitation;
+use Webit\Weather\WeatherApi\Measure\Visibility;
+use Webit\Weather\WeatherApi\Measure\Pressure;
+use Webit\Weather\WeatherApi\Measure\Humidity;
+use Webit\Weather\WeatherApi\Measure\Cloudcover;
+use Webit\Weather\WeatherApi\Api\WindInterface;
+use Webit\Weather\WeatherApi\Measure\Temperature;
+use Webit\Weather\WeatherApi\Api\ConditionCodeInterface;
 
 class Weather implements WeatherInterface {
 	protected $date;

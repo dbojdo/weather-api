@@ -1,9 +1,9 @@
 <?php
 
-namespace Webit\Weather\WeatherApi\Weather;
+namespace Webit\Weather\WeatherApi;
 
-use Webit\Weather\WeatherApi\Api\Weather\UnitableInterface;
-use Webit\Weather\WeatherApi\Api\Weather\WindInterface;
+use Webit\Weather\WeatherApi\Api\UnitableInterface;
+use Webit\Weather\WeatherApi\Api\WindInterface;
 
 class Wind implements WindInterface {
 	/**

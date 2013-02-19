@@ -1,8 +1,8 @@
 <?php
 
-namespace Webit\Weather\WeatherApi\Weather\Measure;
+namespace Webit\Weather\WeatherApi\Measure;
 
-use Webit\Weather\WeatherApi\Api\Weather\UnitableInterface;
+use Webit\Weather\WeatherApi\Api\UnitableInterface;
 
 abstract class UnitAbstract implements UnitableInterface {
 	const UNIT_NO_UNIT = 'no_unit';

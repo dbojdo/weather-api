@@ -1,5 +1,5 @@
 <?php
-namespace Webit\Weather\WeatherApi\Weather\Measure;
+namespace Webit\Weather\WeatherApi\Measure;
 
 class WindSpeed extends UnitAbstract {
 	const UNIT_KMPH = 'kmph';

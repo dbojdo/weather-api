@@ -1,8 +1,8 @@
 <?php
 
-namespace Webit\Weather\WeatherApi\Weather;
+namespace Webit\Weather\WeatherApi;
 
-use Webit\Weather\WeatherApi\Api\Weather\ConditionCodeInterface;
+use Webit\Weather\WeatherApi\Api\ConditionCodeInterface;
 
 class ConditionCode implements ConditionCodeInterface {
 	protected $code;

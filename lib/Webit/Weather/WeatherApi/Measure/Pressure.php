@@ -1,5 +1,5 @@
 <?php
-namespace Webit\Weather\WeatherApi\Weather\Measure;
+namespace Webit\Weather\WeatherApi\Measure;
 
 class Pressure extends UnitAbstract {
 	const UNIT_HPA = 'hpa';

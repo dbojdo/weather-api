@@ -1,5 +1,5 @@
 <?php
-namespace Webit\Weather\WeatherApi\Api\Weather;
+namespace Webit\Weather\WeatherApi\Api;
 
 interface UnitableInterface {
 	public function getValue($unit = null);
